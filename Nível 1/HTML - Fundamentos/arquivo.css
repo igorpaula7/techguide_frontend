@@ -1,0 +1,15 @@
+.titulo-exemplo {
+  color: blue;
+}
+
+.paragrafo-exemplo {
+  color: red;
+  font-size: 23px;
+}
+
+.botao-exemplo {
+  background-color: green;
+  border: none;
+  padding: 10px;
+  border-radius: 50px;
+}
