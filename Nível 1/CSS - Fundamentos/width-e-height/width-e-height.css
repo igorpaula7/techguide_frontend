@@ -1,0 +1,17 @@
+/* Em CSS, a altura e a largura são definidos através dos atributos width e height */
+
+/* A propriedade width define a largura de um elemento. O valor que você atribuir determina apenas a largura do conteúdo, sem incluir o padding, a border, ou a margin (a menos que você use box-sizing: border-box). */
+
+/* A propriedade height define a altura do elemento. Assim como width, o valor se aplica apenas ao conteúdo, não incluindo o padding ou border. */
+
+/* Confira o exemplo abaixo: */
+
+div {
+  width: 300px;
+  height: 300px;
+} /* Essa div teria o formato de quadrado */
+
+div {
+  width: 200px;
+  height: auto;
+} /* Nesta div, a altura é automática, e cresce conforme seu conteúdo aumenta. */
