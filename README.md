@@ -12,3 +12,6 @@ O objetivo deste repositório é:
 Os tópicos serão separados por níveis, conforme o arquivo _front-end (from alura).md_.
 ## 🔄 Atualizações  
 Os conteúdos serão atualizados regularmente conforme avanço nos estudos.  
+
+Também criei uma página no Notion, a fim de documentar alguns conhecimentos que não há possibilidade de colocar em código.
+Para acessar, <a href="https://igorpaula7.notion.site/Techguide-sh-Front-End-11aa1c1c46f980a9a577dff6800e2947?pvs=4">Clique Aqui</a>.
