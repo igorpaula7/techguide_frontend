@@ -1,0 +1,27 @@
+/* Quando falamos de fontes, as principais definições são:
+
+font-family: define a família da fonte
+font-size: define o tamanho da fonte
+font-weight: define o peso da fonte
+color: define a cor da fonte
+
+/*
+
+/* Para iniciar, vamos importar a fonte do google fonts com o comando abaixo: */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: blue;
+  font-weight: 700;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  color: red;
+  font-weight: 300;
+}
