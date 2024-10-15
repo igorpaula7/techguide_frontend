@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+.block {
+  width: 100vw;
+  height: auto;
+}
+
+.inline {
+  width: 100vw;
+  height: auto;
+}
+
+.flex {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* vw significa view width, que corresponde em porcentagem ao tamanho da tela */
+
+/* display em bloco: o bloco corresponde a um em cima do outro, tendo quebra de linhas antes e depois do início do bloco */
+.block > div {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  margin: 10px;
+}
+
+/* display em linha: o inline corresponde a um do lado do outro, não tendo quebra de linhas antes e depois do início da div */
+
+.inline > div {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  margin: 10px;
+  display: inline-block;
+}
+/*  Por padrão, a propriedade display: inline não costuma funcionar bem em <div>s porque elas são elementos de bloco (block-level). Os elementos de bloco, como <div>, naturalmente ocupam toda a largura disponível e são renderizados como um "bloco" na página. Justifica-se assim o uso do display: inline-block*/
+
+/* display flex */
+
+.flex > div {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  margin: 10px;
+}
