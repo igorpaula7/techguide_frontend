@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  width: 200px;
+  padding: 20px 0px;
+  font-size: 20px;
+  border: none;
+  background-color: darkgreen;
+  border: 3px solid darkgreen;
+  color: white;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: white;
+  color: darkgreen;
+  border: 3px solid darkgreen;
+  font-weight: 700;
+} /* Quando passar o mouse por cima fica dessa maneira. */
