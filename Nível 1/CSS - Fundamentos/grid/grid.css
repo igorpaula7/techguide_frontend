@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Reset de CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+/* Declaração de variáveis */
+:root {
+  --azul: #37d8e5;
+  --preto: #07121f;
+}
+
+/* Contâiner Inicial onde o grid foi aplicado */
+#container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 15vh 75vh 10vh;
+
+  grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer";
+}
+
+/* Estilização do Header */
+
+header {
+  background-color: var(--preto);
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px solid var(--azul);
+}
+
+header > div {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  color: white;
+}
+
+/* Estilização do main */
+
+main {
+  background-color: var(--preto);
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 20px;
+}
+
+.main-child {
+  width: 50%;
+  height: 150px;
+  background-color: var(--azul);
+  border: 1px solid white;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.item-logo {
+  width: 20%;
+}
+
+.item-logo > a {
+  font-size: 100px;
+  display: flex;
+}
+
+.item-text {
+  width: 70%;
+  text-align: justify;
+}
+
+.item-text > p {
+  color: var(--preto);
+  margin-top: 5px;
+}
+
+.item-text > h3 {
+  color: var(--preto);
+}
+
+/* Estilização do aside */
+
+aside {
+  background-color: var(--preto);
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  border-left: 1px solid var(--azul);
+}
+
+aside > p {
+  margin: 20px 0px 0px 0px;
+}
+
+/* Estilização do footer */
+
+footer {
+  background-color: var(--preto);
+  grid-area: footer;
+  border-top: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
