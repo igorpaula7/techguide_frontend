@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unidades de Medida</title>
+    <link rel="stylesheet" href="./unidades-de-medida.css" type="text/css" />
+  </head>
+  <body>
+    <h1>Fundamentos do CSS</h1>
+    <p>Estudo realizado através do techguide.sh da Alura.</p>
+    <hr />
+    <h2>Unidades de Medida</h2>
+    <p>No CSS, existem as seguintes unidades de medida:</p>
+    <ul>
+      <h3>Fixas:</h3>
+      <li>px - pixels</li>
+      <li>cm - centímetros</li>
+      <li>mm - milímetros</li>
+      <li>in - polegadas</li>
+      <li>pt - pontos (1/72 de polegada)</li>
+      <li>pc - paicas (12 pontos)</li>
+      <h3>Relativas:</h3>
+      <li>
+        em - muda para os elementos filhos de acordo com o tamanho da fonte
+        (font-size) do elemento pai <strong>usado em tipografia!</strong>
+      </li>
+      <li>rem - root em, funciona como o em mas se baseia no elemento root</li>
+      <li>% - define a porcentagem que ocupará dentro de um elemento.</li>
+      <li>
+        vw - view width, representa o tamanho total de largura da tela do
+        usuário, em porcentagem
+      </li>
+      <li>
+        vh - view height, representa o tamanho total de altura da tela do
+        usuário, em porcentagem
+      </li>
+      <li>vmin - unidade mínima de tela, em porcentagem</li>
+      <li>vmax - unidade máxima de tela, em porcentagem</li>
+    </ul>
+    <hr />
+    <h2>Exemplos:</h2>
+    <h3>Pixels</h3>
+    <div class="pixels"></div>
+    <h3>Em</h3>
+    <div class="em-father">
+      Elemento Pai, 40px
+      <div class="em-child">Elemento Filho, 0.5em, ou seja: 20px</div>
+    </div>
+    <h3>Vw e Vh</h3>
+    <div class="vw-vh"></div>
+  </body>
+</html>

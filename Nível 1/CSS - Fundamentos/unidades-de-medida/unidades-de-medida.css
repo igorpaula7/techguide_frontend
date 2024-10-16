@@ -1,0 +1,19 @@
+.pixels {
+  width: 50px;
+  height: 50px;
+  background-color: steelblue;
+} /* Esta div terá esse tamanho independentemente do dispositivo */
+
+.em-father {
+  font-size: 40px;
+}
+
+.em-child {
+  font-size: 0.5em; /* Isso representa 20px */
+}
+
+.vw-vh {
+  width: 20vw;
+  height: 20vh;
+  background-color: slateblue;
+} /* Essa div adapta-se baseado no tamanho da tela */
