@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 66px auto 308px;
+
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+  grid-area: header;
+  background-color: red;
+}
+
+main {
+  grid-area: main;
+  background-color: blue;
+}
+
+footer {
+  grid-area: footer;
+  background-color: aquamarine;
+}
+
+#filme-principal {
+  width: 100vw;
+  height: 1080px;
+  background: url(./assets/img/banner\ 1.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.info-filme-principal {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  gap: 20px;
+  align-items: start;
+  margin-left: 50px;
+}
+
+.info-filme-principal > img {
+  width: 650px;
+}
+
+.info-filme-principal > p {
+  color: white;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.assistir {
+  width: 150px;
+  color: #131313;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  display: block;
+}
+
+.mais-informacoes {
+  width: 240px;
+  color: #131313;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: block;
+}
