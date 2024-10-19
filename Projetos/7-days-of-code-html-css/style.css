@@ -3,7 +3,7 @@
 /* Reset de CSS */
 * {
   margin: 0;
-  padding: 0;
+  padding: 0b;
   text-decoration: none;
   box-sizing: border-box;
   overflow-x: hidden;
@@ -30,6 +30,7 @@
     url(./assets/img/banner\ 1.png);
   background-repeat: no-repeat;
   background-size: 110%;
+  background-color: black;
 }
 
 /* Semântica Inicial */
@@ -136,25 +137,34 @@ footer {
 
 /* Estilizando Trilhos */
 
-.minha-lista {
+.trilho-filmes {
   display: flex;
   flex-direction: column;
   padding: 25px 50px;
-  background-color: #131313;
 }
 
-.minha-lista > p {
+.trilho-filmes > p {
   color: white;
   padding-bottom: 10px;
 }
 
-.filmes-minha-lista {
+.filmes-trilho-filmes {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.filmes-minha-lista > img {
+.filmes-trilho-filmes > img {
   display: block;
   width: 18%;
+  border-radius: 5px;
+}
+
+.em-alta:hover {
+  width: 20%;
+  border-radius: 5px;
+}
+
+.minha-lista {
+  background-image: linear-gradient(to top, black, black, transparent);
 }
