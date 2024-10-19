@@ -28,7 +28,8 @@
       rgba(0, 0, 0, 0.8) 100%
     ),
     url(./assets/img/banner\ 1.png);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 110%;
 }
 
 /* Semântica Inicial */
@@ -48,15 +49,13 @@ main {
 
 footer {
   grid-area: footer;
-  background-color: aquamarine;
 }
 
 /* Estilizando o Main */
 
 #filme-principal {
   width: 100vw;
-  height: 1080px;
-
+  height: auto;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -69,6 +68,7 @@ footer {
   gap: 20px;
   align-items: start;
   margin-left: 50px;
+  padding: 100px 0px;
 }
 
 .info-filme-principal > img {
@@ -132,4 +132,29 @@ footer {
   display: block;
   font-size: 25px;
   color: white;
+}
+
+/* Estilizando Trilhos */
+
+.minha-lista {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 50px;
+  background-color: #131313;
+}
+
+.minha-lista > p {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.filmes-minha-lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.filmes-minha-lista > img {
+  display: block;
+  width: 18%;
 }
