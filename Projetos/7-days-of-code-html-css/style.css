@@ -168,3 +168,11 @@ footer {
 .minha-lista {
   background-image: linear-gradient(to top, black, black, transparent);
 }
+
+.series:nth-of-type(1) {
+  border-radius: 30px;
+}
+
+.series:nth-of-type(5) {
+  border-radius: 30px;
+}
