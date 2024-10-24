@@ -160,6 +160,10 @@ footer {
   border-radius: 5px;
 }
 
+.trilho-em-alta {
+  background: black;
+}
+
 .em-alta:hover {
   width: 20%;
   border-radius: 5px;
@@ -175,4 +179,49 @@ footer {
 
 .series:nth-of-type(5) {
   border-radius: 30px;
+}
+
+/* Estilizando o footer */
+
+footer {
+  background-image: linear-gradient(black, #131313);
+}
+
+.footer-social {
+  display: flex;
+  gap: 20px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.footer-social > * {
+  display: block;
+  color: white;
+  font-size: 30px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 10px;
+}
+
+.footer-links > ol {
+  list-style: none;
+}
+
+.footer-links > ol > li {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer-links > ol > li:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  color: gray;
+  padding-left: 50px;
 }
